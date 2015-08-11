@@ -5,6 +5,12 @@ class BookmarkManager < Sinatra::Base
 
   set :views, proc { File.join(root, '..', 'views') }
 
+
+  get '/' do
+    "HELLOOOO"
+  end
+
+
   get '/links' do
     @links = Link.all
     erb :'links/index'
