@@ -1,4 +1,5 @@
 require 'data_mapper'
+require_relative 'app/models/tag'
 
 env = ENV['RACK_ENV'] || 'development'
 
