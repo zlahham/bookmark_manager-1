@@ -2,12 +2,12 @@ source "https://rubygems.org"
 
 ruby '2.2.2'
 
+gem 'rack'
 gem 'data_mapper'
 gem 'dm-postgres-adapter'
 gem 'sinatra'
 gem 'rspec-sinatra'
 
-# gem "rails"
 group :test do
   gem 'rspec'
   gem 'capybara'
